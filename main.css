@@ -93,8 +93,28 @@
 }
 
 /* #11 Pagination */
-#pagination {
-    
+#pagination,
+#pagination a{
+    color: pink;
+    text-decoration:none;
+    list-style-type: none; 
+   
+}
+
+#pagination li{
+    display: inline-block;
+    padding: 10px 15px;
+    border-bottom: solid 3px pink;
+}
+
+#pagination li:nth-child(5){
+    color: gray;
+    border-bottom: solid 3px gray;
+}
+
+#pagination li:first-child,
+#pagination li:last-child{
+    border-bottom: 0;
 }
 
 /*12 Comment Steam */
