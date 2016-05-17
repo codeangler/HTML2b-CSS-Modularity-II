@@ -132,13 +132,19 @@
 
 #comments-style >div >div > div{
     position: relative;
-    left: 90px;
-    top: -20px;
+    left: 0px;
+    top: -10px;
     margin-bottom:50px;
 }
 
 #comments-style > div div:first-child {
     float:left;
+}
+
+#comments-style > div > div:nth-child(n){
+    margin-right: 5px;
+    margin-bottom: 25px;
+    overflow:hidden;
 }
 
 time{
