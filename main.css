@@ -1,7 +1,71 @@
 /* ADD YOUR STYLES HERE */
-li:first-child div{
-    padding: 40px;
-    border: red 1px solid;
-    float: left;
-    margin: auto;
+
+/* Use of crazy long selectors was an exercise in not making classes */
+
+/*# 6   Horizontally spaced*/
+
+ol li:first-child .instruction-answer {
+    border:red 1px solid;
+    position: relative;
+    width: 100%;
+   
+    
 }
+
+ol li:first-child .instruction-answer div{
+    border: black 1px solid;
+}
+
+ol li:first-child .instruction-answer div > :nth-child(n) {
+    display: block;
+    justify-content: center;
+    border: green 1px solid;
+    padding: 10px;
+}
+
+/*ol li .instruction-answer img, */
+/*ol li .instruction-answer p {*/
+/*    padding: 10px;*/
+/*}*/
+
+/*#7 Vertically Spaced*/
+
+
+/*#8 Horizontal list*/
+.instruction-answer ul:nth-child(1){
+    list-style:none;
+}
+.instruction-answer ul:nth-child(1) li{
+    float:left;
+}
+
+
+/*#9 Buttons*/
+li:nth-child(4) a:nth-child(n),
+li:nth-child(4) input[type="button"],
+li:nth-child(4) input[type="submit"]
+{
+    background-color: #ED828A;
+    border:none;
+    color:white;
+    padding: 30px 64px;
+    text-align: center;
+    display: -block;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius:4px;
+    float:left;
+}
+
+li:nth-child(4) a:nth-child(2),
+li:nth-child(4) input[type="button"]{
+    padding: 10px 24px;    
+}
+
+li:nth-child(4) a:nth-child(3),
+li:nth-child(4) input[type="submit"]{
+    padding: 8px 16px;   
+}
+
+/*#10 navigation */
