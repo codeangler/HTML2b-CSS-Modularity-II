@@ -17,8 +17,7 @@
 }
 #center > * {
     float:left;
-    padding: 0 5px;
-    
+    padding-right: 30px;    
 }
 
 /*#7 Vertically Spaced*/
