@@ -3,30 +3,17 @@
 /* Use of crazy long selectors was an exercise in not making classes */
 
 /*# 6   Horizontally spaced*/
-
-ol li:first-child .instruction-answer {
-    border:red 1px solid;
-    position: relative;
-    width: 100%;
-   
+.horizontal {
+    text-align: center;
+    padding: 25px;
+}
+#center {
+    padding-left: 60px;
+}
+#center > * {
+    float:left;
     
 }
-
-ol li:first-child .instruction-answer div{
-    border: black 1px solid;
-}
-
-ol li:first-child .instruction-answer div > :nth-child(n) {
-    display: block;
-    justify-content: center;
-    border: green 1px solid;
-    padding: 10px;
-}
-
-/*ol li .instruction-answer img, */
-/*ol li .instruction-answer p {*/
-/*    padding: 10px;*/
-/*}*/
 
 /*#7 Vertically Spaced*/
 
