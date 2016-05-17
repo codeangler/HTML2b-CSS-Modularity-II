@@ -41,34 +41,71 @@ ol li:first-child .instruction-answer div > :nth-child(n) {
 
 
 /*#9 Buttons*/
-.instructions-container>ol>li:nth-child(4) a:nth-child(n),
-.instructions-container>ol>li:nth-child(4) input[type="button"],
-.instructions-container>ol>li:nth-child(4)input[type="submit"]
+#buttons a:nth-child(n),
+#buttons input[type="button"],
+#buttons input[type="submit"]
 {
     background-color: #ED828A;
     border:none;
     color:white;
+    display: inline-block;
     padding: 30px 64px;
     text-align: center;
-    display: -block;
     margin: 4px 2px;
     cursor: pointer;
     text-decoration: none;
     border-radius:4px;
-    float:left;
+    
 }
 
-.instructions-container>ol>li:nth-child(4) a:nth-child(2),
-li:nth-child(4) input[type="button"]{
+#buttons a:nth-child(2),
+#buttons input[type="button"]{
     padding: 10px 24px;    
 }
 
-li:nth-child(4) a:nth-child(3),
-li:nth-child(4) input[type="submit"]{
+#buttons a:nth-child(3),
+#buttons input[type="submit"]{
     padding: 8px 16px;   
 }
 
 /*#10 navigation */
-li:nth-child(5) a:nth-child(n) {
-
+.navigation ul{
+    margin:0;
+    padding: 0;
+    text-transform: uppercase;
 }
+
+.navigation li {
+    display: inline-block;
+    padding: 25px 20px;
+    background: orangered;
+}
+
+.navigation a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navigation li:hover {
+    background-color:yellow;    
+}
+
+.navigation li:first-child {
+    border-radius: 4px 0 0 10px;    
+}
+
+.navigation li:last-child {
+    border-radius: 0 4px 4px 0;
+}
+
+/* #11 Pagination */
+#pagination {
+    
+}
+
+/*12 Comment Steam */
+#comment-style {
+    
+}
+
+/* 13 tabs */
