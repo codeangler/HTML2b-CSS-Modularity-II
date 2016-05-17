@@ -137,9 +137,46 @@
     float:left;
 }
 
-#commments-style time{
-    color: red;
+time{
+    color: gray;
+    font-size: 11px;
     
 }
 
 /* 13 tabs */
+#tabs {
+    position: relative;
+    min-height: 300px
+}
+
+#tabs li {
+    float: left;
+    padding: 10px 10px;
+    border: 0.5px solid blue;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-width: 0;
+    margin: 0 15px 0 0;
+}
+
+#tabs a {
+    color: blue;
+}
+
+#selected{
+    position: relative;
+    top: 1px;
+    background-color: white;
+    z-index:9;
+}
+
+#tab-content {
+    border: 0.5px solid blue;
+    clear: both;
+    position: absolute;
+    top: 55px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
