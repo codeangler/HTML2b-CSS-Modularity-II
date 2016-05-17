@@ -21,13 +21,12 @@
 }
 
 /*#7 Vertically Spaced*/
-.vertical-outer {
-    position: relative;
+.vertical-centered{
+    padding: 150px 0;
 }
 
-.vertical-inner {
-    position: relative;
-    top: 50px;
+.vertical-outer{
+    padding: 150px 0;
 }
 
 /*#8 Horizontal list*/
