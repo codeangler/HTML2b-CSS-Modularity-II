@@ -8,7 +8,8 @@
     padding: 25px;
 }
 #center {
-    padding-left: 60px;
+    margin: 0 auto;
+   
 }
 #center > * {
     float:left;
@@ -16,7 +17,13 @@
 }
 
 /*#7 Vertically Spaced*/
-
+.vertical-inner img,
+.vertical-inner p,
+.vertical-inner ol{
+    padding: 150px 20px;
+    display:block;
+    float:left;
+}
 
 /*#8 Horizontal list*/
 .instruction-answer ul:nth-child(1){
