@@ -21,7 +21,7 @@
 .vertical-inner p,
 .vertical-inner ol{
     padding: 150px 20px;
-    display:block;
+    display:block;    
     float:left;
 }
 
@@ -98,7 +98,6 @@
     color: pink;
     text-decoration:none;
     list-style-type: none; 
-   
 }
 
 #pagination li{
@@ -118,7 +117,28 @@
 }
 
 /*12 Comment Steam */
-#comment-style {
+#comments-style > div,
+#comments-style > div > div > div{
+    clear:both;
+}
+
+#comments-style > div > div {
+    position:relative;
+}
+
+#comments-style >div >div > div{
+    position: relative;
+    left: 90px;
+    top: -20px;
+    margin-bottom:50px;
+}
+
+#comments-style > div div:first-child {
+    float:left;
+}
+
+#commments-style time{
+    color: red;
     
 }
 
